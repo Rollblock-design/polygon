@@ -22,6 +22,9 @@ app.post(`/bot${token}`, (req, res) => {
 bot.setWebHook(`${WEBHOOK_URL}/bot${token}`);
 
 // Start server
+app.get('/', (req, res) => {
+    res.send('🤖 PolyGun bot is running');
+});
 app.listen(PORT, () => {
     console.log(`🚀 Server running on port ${PORT}`);
 });
