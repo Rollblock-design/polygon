@@ -38,7 +38,7 @@ function generateReferralCode() {
 
 // MAIN MENU
 function mainMenu(chatId, messageId = null) {
-    const text = `🚀 *Welcome to PolyGun*
+    const text = `🚀 *Welcome to PolyBot*
 
 Your secure companion for rapid Polymarket trades.
 
